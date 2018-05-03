@@ -21,6 +21,7 @@ int partition(int *a, int i, int j)//划分算法
 		if (i < j)
 		{
 			a[j] = a[i];
+			--j；
 		}
 	}
 	a[i] = temp;
